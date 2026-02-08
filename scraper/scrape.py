@@ -39,6 +39,7 @@ def main():
     r.raise_for_status()
 
     # 3) Fetch target page
+    
     r = s.get(TARGET_PAGE, timeout=30)
     r.raise_for_status()
 
